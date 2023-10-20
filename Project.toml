@@ -1,0 +1,21 @@
+name = "HubbardHolstein"
+uuid = "3ac2b029-2194-4b37-9532-507ffb667175"
+authors = ["Robert L. Smith <robs84@vt.edu> and contributors"]
+version = "0.0.1"
+
+[deps]
+BlockDavidson = "b4c031f8-e7c9-4879-896c-063a10ff8103"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PauliOperators = "be646426-f34c-4536-b1d4-a45a9633e6db"
+PkgTemplates = "14b8a8f1-9102-5b29-a752-f990bacb7fe1"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[compat]
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
